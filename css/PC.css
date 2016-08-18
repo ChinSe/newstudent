@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding: 0px;margin:0px;}
+	html{height:100%;}
+	body{height: 100%;background-image: url(../1.png);min-width: 1366px}
+	a{text-decoration:none;color:#32ced2;}
+	img{border:none;}
+	p{text-indent:2em;}
+	pre{font-family: 微软雅黑;white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */ }
+	.head{width:100%;height:80px;margin-top: 10px;background: url(../image/4.png);}
+	.headpicture{width:auto;height: 60px;margin-left: 18%;}
+	.headpicture img{margin-top:15px;}
+	.pictureleft{height: 50px}
+	.pictureright{height: 35px}
+	.headline img{width:100%;height:10px;}
+	.container{min-width: 1366px;}
+	.headshadow{width:100%;height:30px;background:url(../image/5.png);}
+	.foot{width:100%;min-width:1366px;height:80px;background:url(../image/3.png);margin-top: 1px;}
+	.footcenter{width:450px;height:100%;margin:auto ;}
+	.footcenter img{height:60px;float: left;margin:10px;}
+	.item{float: left;}
+	.navigation{display:none;}
+	#item1{width:12.5%;height:240px;margin:100px 30px;}
+	#item1 a{display: block;width:100%;height:60px;margin:auto;}
+	#item1 img{width:170px;height: 60px;}
+	#item2{width:805px;height:420px;margin-left:10px;}
+	#item3{width:320px;height:500px;}
+	#item3_1{display:none;}
+	.itemnews{width:100%;height:280px;}
+	.itemnew_content_news{width:100%;height:200px;background:#E8E1E1;}
+	.itemnew_content_an{width:100%;height:200px;background:#E8E1E1;}
+	.itemtitle{width:120px;height:30px;}
+	.itemline{width:240px;height:30px;}
+	.itemnew{width:345px;float:left}
+	#itemnew2{margin-left: 115px;} 
+	.itemnav {width:100%;height:115px;margin-top:15px;}
+	.itemnav1{display:none;}
+	.itemnav a{display:block;width:115px;float: left;margin-left:115px;}
+	#nav1{margin-left: 0px;}
+	.itemnav img{width:115px;height:115px;}
+	.itemphoto{width:260px;height:160px;background:#D8F7F2;border-radius: 20px;margin-left: 20px;margin-top: 10px}
+	.about{width:260px;height: 180px;margin:40px 20px;}
+	.itemabout{width:260px;height:160px;background:#D8F7F2;}
+	.lefttop img{width:170px;height:170px;position: absolute;top:10px;left:30px;}
+	.footcenter1{display:none;}
+	

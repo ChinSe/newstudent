@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<style>
+	.container{width:360px;height:360px;margin:250px auto;border:1px solid black;background: #609;}
+	.title{height:33px;background: #213}
+	h2{font-family: "微软雅黑";margin:36px auto;color:#592;width:216px;}
+	.content div{margin-left:54px;margin-top:63px;}
+	.btn{margin-left:250px;}
+
+	</style>
+</head>
+<body>
+	<div class='container'>
+		<div class='title'>
+			<h2>迎新专题网后台登陆</h2>
+		</div>
+		<div class='content'>	
+			<form action="login.php" method="post">
+			<div>
+			<span>用户名：</span>
+			<input type='text' name='username' value=''></br>
+			</div>
+			<div>
+			<span>密码：</span>
+			<input type='password' name='password' value=''>
+			</div>
+			<div class=:'btn'>
+			<input type='submit' value='登录' class='btn'>
+			</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
